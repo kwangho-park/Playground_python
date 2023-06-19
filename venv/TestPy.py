@@ -1,7 +1,7 @@
 
 import platform
 
-class Test:
+class TestClass:
 
     member =""
 
@@ -30,8 +30,6 @@ class Test:
 
         print(value)
 
-object = Test()
 
-object.typeTest()
 
 

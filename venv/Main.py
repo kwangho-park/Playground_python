@@ -1,9 +1,10 @@
 
-import Test
+import TestPy
 
-# main
-# TypeError: 'module' object is not callable
-object = Test()
+object = TestPy.TestClass()
+queryStr = object.basicTest()       # TestPy의 TestClass 에 정의된 함수를 호출함
 
-object.basicTest()
+
+print(queryStr)
+
 
